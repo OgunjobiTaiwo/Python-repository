@@ -7,11 +7,11 @@ System.out.print("Enter any word of choice: ");
 String letter = input.nextLine();
 
 
-int counter = 0;
+int vowel= 0;
 int consonant = 0;
 for(int count = 0 ; count < letter.length() ; count++){
 	if (letter.charAt(count) == 'a' || letter.charAt(count) == 'e' || letter.charAt(count) == 'i'|| letter.charAt(count) == 'o'|| letter.charAt(count) == 'u' ){
-		counter++;
+		vowel++;
 		}
 	else{
 		consonant++;
